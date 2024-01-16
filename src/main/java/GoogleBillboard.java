@@ -13,7 +13,7 @@ public void setup(){
       break;
     }
   }
-  
+  /*
   for(int i = 0; i < e.length(); i++){
     digits = e.substring(i, i+10);
     for(int j = 0; j < 10; j++){
@@ -30,7 +30,7 @@ public void setup(){
     }
   }
 }
-
+*/
 public boolean checkPrime(double num){
   if(num<2){return false;}
   for(int i = 2; i <= Math.sqrt(num); i++){
