@@ -5,7 +5,7 @@ public class GoogleBillboard{
   public double check;
   public int f = 0;
   public int count = 0;
-public void main(String[] args){
+public static void main(String[] args){
   for(int i = 0; i < e.length(); i++){
     digits = e.substring(i, i+10);
     check = Double.parseDouble(digits);
@@ -32,7 +32,7 @@ public void main(String[] args){
   }*/
 }
 
-public boolean checkPrime(double num){
+public static boolean checkPrime(double num){
   if(num<2){return false;}
   for(int i = 2; i <= Math.sqrt(num); i++){
     if(num%i==0){
